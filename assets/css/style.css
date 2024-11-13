@@ -611,9 +611,10 @@ a {
 }
 
 .box-skills {
+    background: #fff;
     border: 1px solid hsla(0, 0%, 100%, 0.15);
     border-radius: 20px;
-    color: var(--color-white);
+    color: var(--color-black);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -624,7 +625,7 @@ a {
 
 .box-skills i {
     font-size: 4rem;
-    color: var(--color-white);
+    color: var(--color-black);
 }
 
 .box-skills h3 {
@@ -632,7 +633,7 @@ a {
 }
 
 .box-skills p {
-    color: var(--color-gray2);
+    color: var(--color-black);
     font-size: 1.2rem;
     font-weight: 500;
     line-height: 1.4;
