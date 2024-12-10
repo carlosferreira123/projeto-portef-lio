@@ -43,7 +43,8 @@ html {
 }
 
 body {
-    background-color: var(--color-black);
+    background-image: linear-gradient(45deg, black, #232224);
+    
     width: 100%;
     display: flex;
     align-items: center;
@@ -139,7 +140,7 @@ a {
     justify-content: space-between;
     z-index: 99;
     transition: top 0.3s ease-in-out;
-    background-color: rgba(0, 0, 0, .9); 
+    background-color: rgba(34, 33, 33, 0.87); 
     backdrop-filter: blur(10px); 
     -webkit-backdrop-filter: blur(10px); 
 }
@@ -150,7 +151,8 @@ a {
 }
 
 .logo img {
-    width: 150px;
+    width: 80px;
+    border-radius: 150px;
 }
 
 /* Menu */
@@ -391,9 +393,9 @@ a {
 
 /*************** SOBRE *****/
 .sobre {
-    background-color: var(--color-black);
+    
     width: 100%;
-    height: 100vh;
+    height: 85vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -401,6 +403,7 @@ a {
     z-index: 1;
     user-select: none;
     overflow: visible;
+
 }
 
 .container-sobre {
@@ -541,9 +544,9 @@ a {
     position: relative;
     left: 50px;
     top: 50px;
-    width: 150%;
-    height: 40%;
-    border-radius: 20px 20px;
+    width: 140%;
+    height: 50%;
+    border-radius: 50%;
     
     
 }
@@ -611,7 +614,7 @@ a {
 }
 
 .box-skills {
-    background: #fff;
+    background: #fffffff3;
     border: 1px solid hsla(0, 0%, 100%, 0.15);
     border-radius: 20px;
     color: var(--color-black);
@@ -970,6 +973,23 @@ a {
     letter-spacing: 1.5px;
     padding-bottom: 1.5rem;
 }
+.conteudo-textos-case a {
+    width: 180px;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    background-color: rgba(233, 229, 229, 0.747);
+    border-radius: 50px;
+    color: var(--color-black);
+    font-weight: bold;
+    letter-spacing: 1.2px;
+    transition: 0.5s;
+}
+.conteudo-textos-case a:hover {
+    background-color: #f7f2f2;
+}
 
 .conteudo-textos-case span {
     width: 180px;
@@ -1130,7 +1150,7 @@ a {
 
 /*************** FOOTER *****/
 .footer {
-    background-color: var(--color-black);
+    
     width: 100%;
     padding: 3rem 1rem;
     color: var(--color-white);
@@ -1180,7 +1200,7 @@ a {
 .footer-nav a {
     text-decoration: none;
     color: var(--color-white);
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     transition: color 0.3s ease;
 }
 
