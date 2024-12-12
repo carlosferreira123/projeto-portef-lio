@@ -621,7 +621,8 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 450px;
+    align-items: center;
+    height: 200px;
     padding: 2rem;
     gap: 1.5rem;
 }
@@ -636,6 +637,8 @@ a {
 }
 
 .box-skills p {
+    align-items: center;
+    justify-content: center;
     color: var(--color-black);
     font-size: 1.2rem;
     font-weight: 500;
