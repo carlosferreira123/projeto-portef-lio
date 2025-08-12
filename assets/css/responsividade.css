@@ -106,11 +106,20 @@
     .container-case {
         gap: 2rem;
     }
-
+    .a{
+        flex:block;
+    }
+    .case0{
+        flex-direction: column;
+        gap: 6rem;
+        height: auto;
+        justify-content: center;
+    }
     .case1,
     .case3 {
         flex-direction: column;
-        gap: 1rem;
+        
+        gap: 3rem;
         height: auto;
         justify-content: center;
     }
@@ -118,7 +127,7 @@
     .case2, 
     .case4 {
         flex-direction: column-reverse;
-        gap: 1rem;
+        gap: 3rem;
         height: auto;
         height: auto;
         justify-content: center;
